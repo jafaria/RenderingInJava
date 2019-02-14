@@ -1,3 +1,5 @@
+import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 public class MainTest {
@@ -6,11 +8,10 @@ public class MainTest {
     public void main() {
     }
 
-    @org.junit.Test
+    @Test
     public void tes() {
         int a = 2;
         int b = 3;
         assertNotEquals(a, b);
-
     }
 }
